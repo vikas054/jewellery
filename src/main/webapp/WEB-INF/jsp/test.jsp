@@ -293,6 +293,20 @@
             </div>
           </div>
         </div>
+<!--         <div class="col-md-3" style:"width:257px; height:320px;">
+            <div class="content-box text-center" data-aos="fade" data-aos-delay="0" style:"width:257px; height:320px;>
+              <figure class="bg-grey" style:"width:257px; height:320px;>
+                <img src="images/pngimg.com - necklace_PNG67.png" style="width:125px;height:320px;">
+              </figure>
+              <div class="category align-center" style:"width:257px; height:320px;">
+                <a href="jewellery.html">The Blue Gemstone Necklace</a>
+              </div>
+              <span class="price-tag text-center">$66.00</span>
+            </div>
+          </div>
+        </div> -->
+        
+        
         <div class="btn-center">
           <a href="#" class="btn btn-medium btn-primary">Shop Now</a>
         </div>

@@ -77,7 +77,7 @@
                 </div>
               </div>
               <div class="footer-menu col-md-3 col-sm-6 col-xs-6">
-                <img src="images/main-logo.png" alt="main-logo" class="img-fluid mb-4">
+                <img src="images/logo-color.png" alt="main-logo" class="img-fluid mb-4" style="width:200px">
                 <div class="content">
                   <div class="widget-content">
                     <p>Stay Updated With Us For News And Offers</p>

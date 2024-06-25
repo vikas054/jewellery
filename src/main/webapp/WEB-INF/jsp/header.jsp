@@ -15,7 +15,7 @@
                                         <i class="icon icon-search"></i>
                                     </form>
                                 </li>
-                                <li class="menu-item dropdown-submenu">
+                                <li class="menu-item dropdown-submenu" style>
                                     <a href="#" class="country-item">Country</a>
                                     <i class="icon icon-caret-down"></i>
                                     <ul id="countryList" class="dropdown-country list-unstyled bg-light">
@@ -54,7 +54,7 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="main-logo">
                                 <a href="index.html">
-                                    <img src="images/maibbbn-logo.png" alt="">
+                                    <img src="images/logo-color.png" alt="Alt" style="height:80px">
                                 </a>
                             </div>
                         </div>
