@@ -23,7 +23,7 @@ public class HomeController {
 	@GetMapping(value="/")
 	public String home() {
 			System.out.println("Called Home");
-	    return  "home";
+	    return  "homeh";
 	}
 	
 	@GetMapping(value="/test")
