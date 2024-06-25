@@ -10,11 +10,6 @@
    	 <jsp:include page="header.jsp"/>
    
    <!-- header end -->
-   
-   
-   
-   
-   
     <section id="billboard" class="bg-grey overflow-hidden">
       <div class="swiper main-swiper">
         <div class="swiper-wrapper">

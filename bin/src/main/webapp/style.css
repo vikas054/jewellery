@@ -1569,15 +1569,10 @@ This is main CSS file that contains custom style rules used in this template
 
 /* --Dropdown Part
 --------------------------------------------------------------*/
-
-
-
-/* --Dropdown Part
---------------------------------------------------------------*/
 .right-block li.menu-item.dropdown-submenu {
     position: relative;
 }
-.right-block li.menu-item ul.dropdown-country {
+.right-block li.menu-item ul.dropdown-currency {
     position: absolute;
     top: 20px;
     left: -50px;
@@ -1588,36 +1583,7 @@ This is main CSS file that contains custom style rules used in this template
     transition: 0.3s all;
     z-index: 99;
 }
-.right-block .dropdown-submenu:hover ul.dropdown-country {
-    display: block;
-    opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
-
-.right-block li.menu-item.dropdown-submenu {
-    position: relative;
-}
-.right-block li.menu-item ul.dropdown- {
-    position: absolute;
-    top: 20px;
-    left: -50px;
-    padding: 0 20px;
-    display: none;
-    opacity: 0;
-    z-index: 9;
-    transition: 0.3s all;
-    z-index: 99;
-}
-.right-block .dropdown-submenu:hover ul.dropdown-country {
+.right-block .dropdown-submenu:hover ul.dropdown-currency {
     display: block;
     opacity: 1;
 }
@@ -1648,14 +1614,6 @@ This is main CSS file that contains custom style rules used in this template
     width: 80px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
 
 /* - Navigation
 --------------------------------------------------------------*/
