@@ -1,0 +1,19 @@
+package com.jewellers.store.serviceImpl;
+
+import com.jewellers.store.model.User;
+import com.jewellers.store.service.LoginService;
+
+public class LoginServiceImpl implements LoginService  {
+
+	
+	@Override
+	public User login(String userEmail, String password) {
+		// TODO Auto-generated method stub
+		System.out.println("Service impl class");
+		
+		User user = new User();
+		
+		return user;
+	}
+
+}
