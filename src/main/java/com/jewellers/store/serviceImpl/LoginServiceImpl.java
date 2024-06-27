@@ -1,8 +1,11 @@
 package com.jewellers.store.serviceImpl;
 
+import org.springframework.stereotype.Service;
+
 import com.jewellers.store.model.User;
 import com.jewellers.store.service.LoginService;
 
+@Service
 public class LoginServiceImpl implements LoginService  {
 
 	
