@@ -7,27 +7,16 @@ import java.sql.SQLException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
+import com.jewellers.store.util.Constant;
+
 public class DbConnection {
 
-	
-	@Value("${spring.datasource.url}")
-	private String url;
-	
-	
-	@Value("${spring.datasource.username}")
-	private String userName;
-	
-	@Value("${spring.datasource.password}")
-	private String password;
-	
-	@Autowired
-	Connection con;
-	
 	public Connection getConnection() {
+		Connection con = null;
 		try {
-			con = DriverManager.getConnection(url,userName,password);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			Class.forName(Constant.DB_DRIVER_NAME);
+			con = DriverManager.getConnection(Constant.DB_URL,Constant.DB_USER_NAME,Constant.DB_PASSWORD);
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return con;
